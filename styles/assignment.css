@@ -1,0 +1,46 @@
+/* head related styles */
+
+.first-bckgnd {
+
+    background-image: url(../resources/Banner\ Image.png);
+    width: 1320px;
+    height: 600px;
+    background-repeat: no-repeat;
+
+}
+
+.head-title {
+
+    font-family: 'Merriweather', serif;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.description {
+
+    font-family: 'Merriweather', serif;
+    color: #fff;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    text-align: center;
+
+
+}
+
+.second-header {
+    text-align: center;
+    color: red;
+
+}
+
+.new-year-photo {
+    text-align: center;
+    background-image: url(../resources/Vectorrr.png);
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+}
