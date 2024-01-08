@@ -108,6 +108,8 @@ header h2 {
 .container1 img {
   margin-right: 15px;
 }
+/* Info related Styles */
+
 .info {
   text-align: center;
   background-image: linear-gradient(
@@ -141,4 +143,52 @@ header h2 {
 .text-info {
   color: #070211;
   margin-left: 30%;
+}
+/* Details related Styles */
+.details {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+.img-container {
+  border-radius: 50%;
+  border: 11px solid;
+  border-color: #f00;
+  padding: 15px 15px 15px 15px;
+}
+.red-font1 {
+  color: red;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.font2 {
+  color: #070211;
+  font-family: Merriweather, Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  font-weight: 900;
+  margin-bottom: 25px;
+}
+.font3 {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter, Arial, Helvetica, sans;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+.red-font2 {
+  color: #f00;
+  font-family: Inter, Arial, Helvetica;
+  font-size: 48px;
+  font-weight: 700;
+}
+.right-font2 {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter, Arial, Helvet;
+  font-size: 17px;
+  font-weight: 400;
+}
+.left-text {
 }
