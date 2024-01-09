@@ -9,7 +9,7 @@
 }
 
 body {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -19,6 +19,8 @@ header {
   background-size: cover;
   background-position: center;
   height: 600px;
+  width: 90%;
+  margin: 0 auto;
   background-repeat: no-repeat;
   margin-top: 50px;
   display: flex;
@@ -72,6 +74,8 @@ header h2 {
   background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url(../resources/Vectorrr.png);
   height: 600px;
+  width: 90%;
+  margin: 0 auto;
   border-radius: 10px;
   align-items: center;
   text-align: center;
@@ -118,7 +122,7 @@ header h2 {
     rgba(255, 0, 0, 0) 100%
   );
   height: 480px;
-  margin-top: 80px;
+  margin: 80px 65px;
   padding-top: 100px;
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-size: 32px;
@@ -150,6 +154,8 @@ header h2 {
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
+  width: 90%;
+  margin: 20px auto;
 }
 
 .img-container {
@@ -191,9 +197,10 @@ header h2 {
   font-weight: 400;
 }
 .Shopping-list {
-  margin-top: 100px;
+  margin-top: 70px;
   margin-bottom: 20px;
   line-height: 40px;
+  margin-left: 65px;
 }
 .des1 {
   color: #f00;
@@ -220,32 +227,37 @@ header h2 {
   justify-content: space-between;
   margin-bottom: 18px;
   margin-top: 0px;
+  margin-left: 60px;
+  margin-right: 60px;
 }
 
 .img-res1 {
-  padding-right: 10px;
+  padding-right: 7px;
 }
 .img-res2 {
-  padding-right: 10px;
+  padding-right: 7px;
 }
 
 .img-responsive2 {
   height: 450px;
   display: flex;
-  margin-top: 0px;
+  margin-left: 60px;
+  margin-right: 60px;
   justify-content: space-between;
 }
 .img-re21 {
-  padding-right: 10px;
+  padding-right: 7px;
 }
 
 .img-re22 {
-  padding-right: 10px;
+  padding-right: 7px;
 }
 
 .newslater-info {
   text-align: center;
   height: 600px;
+  width: 90%;
+  margin: 20px auto;
   border-radius: 16px;
   background: rgba(255, 0, 0, 0.05);
   margin-top: 70px;
@@ -275,7 +287,7 @@ header h2 {
   border: none;
   border-radius: 0px 50px 50px 0px;
   border-right: 0;
-  height: 72px;
+  height: 60px;
   width: 200px;
 }
 #email-input {
@@ -283,9 +295,9 @@ header h2 {
   font-size: 16px;
   border-radius: 50px 0px 0px 50px;
   border: none;
-  width: 550px;
+  width: 350px;
   border-left: 0;
-  height: 72px;
+  height: 60px;
 }
 #subscribe-container {
   margin-top: 60px;
@@ -300,11 +312,11 @@ header h2 {
   margin-bottom: 60px;
 }
 .info-container {
+  width: 100%;
   height: 609px;
   background: #070211;
   padding-top: 130px;
-  border-radius: 10px;
-  margin-bottom: 120px;
+  margin-bottom: 0px;
 }
 .social-media {
   text-align: center;
@@ -316,4 +328,16 @@ header h2 {
   color: #fff;
   justify-content: space-around;
   margin-top: 70px;
+}
+.horizontal-line {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.15);
+  color: #ffffff;
+  margin: 0 200px;
+}
+#logo {
+  padding-right: 8px;
+}
+#logo2 {
+  padding-right: 8px;
 }
